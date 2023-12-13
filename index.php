@@ -132,12 +132,9 @@ body {
         <div class="header">
             <h2>Just Do it.</h2>
         </div>
-        <div class="search">
-            <input type="text" id="search-bar" placeholder="Search....." oninput="search()">
-        </div>
-        <div id="task-form">
-            <input type="text" id="task-input" placeholder="What would you like to do?" require style="color: white;">
-            <button class="add-btn" onclick="add()">Add Task</button>
+        
+        <div>
+
         </div>
         <div id="filter-bar">
             <span class="active" id="all">All</span>
